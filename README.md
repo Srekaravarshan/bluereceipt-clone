@@ -1,6 +1,8 @@
 # Hosted Link
 [bluereciept-clone.web.app](https://bluereceipt-clone.web.app/)
 
+![Screenshot](https://github.com/Srekaravarshan/bluereceipt-clone/blob/main/public/assets/image.png)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
