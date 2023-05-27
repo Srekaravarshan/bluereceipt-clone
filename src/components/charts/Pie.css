@@ -1,0 +1,59 @@
+.chart {
+    position: relative;
+    margin: 20px 0;
+}
+
+.semi-circle {
+    position: absolute;
+    bottom: 18.5px;
+    left: 52%;
+    z-index: 5;
+}
+
+.dot {
+    position: absolute;
+    height: 3px;
+    width: 3px;
+    border-radius: 100%;
+    background-color: var(--gray);
+    translate: -60px 0;
+    transform-origin: 60px 0;
+}
+.chart__arrow {
+    position: absolute;
+    width: 40px;
+    z-index: 1;
+    rotate: 135deg;
+    bottom: 10.5px;
+    left: 38.2%;
+    transform-origin: right center;
+}
+
+.chart__pin {
+    position: absolute;
+    height: 12px;
+    width: 12px;
+    background-color: var(--primary-color);
+    border-radius: 50%;
+    bottom: 10px;
+    left: 50%;
+    z-index: 2;
+    outline: 8px solid white;
+    box-shadow: 2px 2px 8px 6px rgba(0, 0, 0, 0.2);
+}
+
+.chart__steps {
+    /* width: 200px;
+    height: 200px; */
+
+    background-image: linear-gradient(to right, black 33%, rgba(255,255,255,0) 0%);
+    background-position: bottom;
+    background-size: 3px 1px;
+    background-repeat: repeat-x;
+    
+    /*Vertical*/
+    background-image: linear-gradient(black 33%, rgba(255,255,255,0) 0%);
+    background-position: right;
+    background-size: 1px 3px;
+    background-repeat: repeat-y;
+  }

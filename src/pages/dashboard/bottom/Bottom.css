@@ -1,0 +1,132 @@
+
+.dashboard__bottom {
+    display: flex;
+    flex-grow: 1;
+  }
+.tab__action {
+    margin-left: auto;
+  }
+  
+  .MuiTabs-root {
+    min-height: 40px !important;
+  }
+  
+  .dashboard__tab {
+    font-size: 12px !important;
+    font-weight: bold !important;
+    min-height: 40px !important;
+    padding: 0 12px;
+  }
+  
+  .MuiTab-textColorPrimary.Mui-selected {
+    color: black !important;
+  }
+  
+  .PrivateTabIndicator-colorPrimary-2 {
+    background-color: var(--primary-color) !important;
+  }
+  
+  .MuiPaper-elevation1 {
+    box-shadow: none !important;
+  }
+  
+  .MuiTabs-flexContainer {
+    align-items: center;
+  }
+  
+  .dashboard__list {
+    width: 100%;
+  }
+  
+  .dashboard__card {
+    display: flex;
+    padding: 15px 20px;
+    border-radius: 10px;
+    margin-top: 15px;
+  align-items: center;
+  }
+  
+  .dashboard__card--selected {
+    background-color: var(--light-gray);
+  }
+  
+  .dashboard__card--col {
+    margin-left: 15px;
+  }
+  
+  .dashboard__card--actions {
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+  }
+  
+  .dashboard__card--icon {
+    color: var(--gray);
+    border: 1px solid var(--sec-gray);
+    padding: 13px;
+    background-color: white;
+    border-radius: 50%;
+  }
+  .dashboard__card--title {
+    font-size: 14px;
+    font-weight: bold;
+  
+  }
+  .dashboard__card--subtitle {
+    margin-top: 6px;
+    font-weight:600;
+    font-size: 12px;
+    color: var(--gray);
+  }
+  .dashboard__card--amount {
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  .dashboard__tab--action {
+    height: 30px !important;
+  }
+  
+  .dashboard__meter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    margin-left: 25px;
+    border: 1px solid var(--sec-gray);
+    border-radius: 10px;
+    /* margin-top: auto;
+    margin-bottom: auto; */
+    padding: 15px;
+  }
+  
+  .dashboard__meter--title {
+    color: var(--primary-color);
+    font-size: 20px;
+    font-weight: 800;
+  }
+  
+  .dashboard__meter--icon {
+    width: 12px;
+    margin-left: 6px;
+  }
+  
+  .dashboard__meter--subtitle {
+    font-weight: 600;
+    color: var(--gray);
+    margin-top: 8px;
+  }
+  
+  .dashboard__meter--chart {
+  margin: 15px 0;
+  background-color: var(--gray);
+  height: 100px;
+  width: 100%;
+  }
+  
+  .dashboard__meter--amount {
+    font-weight: 800;
+    font-size: 18px;
+  }

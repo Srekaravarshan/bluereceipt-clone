@@ -1,0 +1,49 @@
+
+.dashboard__summary {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+  }
+  
+  .summary {
+      margin-right: 20px;
+      border-left: 2px solid var(--sec-gray);
+      padding-left: 20px;
+  }
+  
+  .summary:first-child {
+    border-left: none;
+    padding-left: 0;
+  }
+  
+  .summary__title {
+    color: var(--gray);
+    font-size: 13px;
+  }
+  
+  .summary__title > span {
+    margin-left: 10px;
+    font-size: 11px;
+    color: green;
+    background-color: rgba(0, 128, 0, 0.2);
+    border-radius: 10px;
+    padding: 2px 6px;
+  }
+
+  .summary__title.negative > span {
+    
+    color: red;
+    background-color: rgba(255, 0, 0, 0.2);
+  }
+  
+  .summary__amount {
+    font-size: 24px;
+    margin-top: 14px;
+  }
+  
+  .summary__subtitle {
+    margin-top: 8px;
+    font-size: 12px;
+    color: var(--gray);
+  }
+  
